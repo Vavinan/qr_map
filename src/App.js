@@ -73,7 +73,7 @@ function App() {
         </div>
       ) : (
         <div className="button-container">
-          <button className="big-button" onClick={() => handleOptionClick('Toilets')}>Toilets</button>
+          <button className="big-button" onClick={() => handleOptionClick('Toilets')}>Toilet</button>
           <button className="big-button" onClick={() => handleOptionClick('Exit')}>Exit</button>
         </div>
       )}
